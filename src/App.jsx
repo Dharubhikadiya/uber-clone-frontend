@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Start from "./pages/Start";
 import UserLogin from "./pages/UserLogin";
@@ -6,7 +6,6 @@ import UserSignup from "./pages/UserSignup";
 import CaptainSignup from "./pages/CaptainSignup";
 import CaptainLogin from "./pages/CaptainLogin";
 import Home from "./pages/Home";
-import UserContext from "./context/Usercontext";
 import UserProtectedwrapper from "./pages/UserProtectedwrapper";
 import UserLogout from "./pages/UserLogout";
 import CaptainHome from "./pages/CaptainHome";

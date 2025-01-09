@@ -131,6 +131,7 @@ const Home = () => {
   const findtrip = async () => {
     setVehiclepanel(true);
     setPanelopen(false);
+    
     await axios
       .get(
         `${import.meta.env.VITE_BASE_URL}/rides/get-fare`,

@@ -12,7 +12,7 @@ const UserSignup = () => {
   const [lastname, setLastname] = useState("");
   const [userData, setUserData] = useState({});
 
-  const { user, setUser } = useContext(UserDataContext);
+  const { setUser } = useContext(UserDataContext);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
