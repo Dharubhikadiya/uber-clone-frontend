@@ -133,7 +133,7 @@ const Home = () => {
     setPanelopen(false);
     await axios
       .get(
-        `http://localhost:3000/rides/get-fare`,
+        `http://localhost:4000/rides/get-fare`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
